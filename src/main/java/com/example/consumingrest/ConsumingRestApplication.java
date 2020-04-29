@@ -39,7 +39,7 @@ public class ConsumingRestApplication {
 			  headers.set("Content/Type", "text/json");
 			    
 			  JsonObject jsonObject = new JsonObject(); 
-			  jsonObject.addProperty("cpf","06637971529");
+			  jsonObject.addProperty("cpf","999999999");
 			  	 
 			  HashMap<String, String> bodyParam = new HashMap<>();
 			  bodyParam.put("encrypted", AesService.encrypt(jsonObject.toString()));
